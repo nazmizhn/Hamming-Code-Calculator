@@ -1,1 +1,1 @@
-# Hamming-code-calculator
+# Hamming-Code-Calculator
