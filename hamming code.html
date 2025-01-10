@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamming Code Calculator</title>
+  <link rel="stylesheet" href="hammingStyling.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hamming Code Calculator</h1>
+    <div class="form-group">
+      <label for="storedWord">Stored Word (Binary):</label>
+      <input type="text" id="storedWord" placeholder="Enter stored word, e.g., 00111001">
+    </div>
+    <div class="form-group">
+      <label for="fetchedWord">Fetched Word (Binary):</label>
+      <input type="text" id="fetchedWord" placeholder="Enter fetched word, e.g., 00111101">
+    </div>
+    <button id="calculateBtn">Calculate</button>
+    <div id="output"></div>
+  </div>
+  <script src="hammingFunction.js"></script>
+</body>
+</html>
